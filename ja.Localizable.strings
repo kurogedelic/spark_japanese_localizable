@@ -1,0 +1,3040 @@
+/* 
+  File.strings
+  SmartMail
+  Created by Viktor Gedzenko on 10/4/14.
+  Copyright (c) 2014 Readdle. All rights reserved.
+ 
+*/
+/* No comment provided by engineer. */
+
+"Please, enable {folders} folders for IMAP access##{one}" = "IMAPアクセス用に {folders} フォルダを有効にしてください";
+"Please, enable {folders} folders for IMAP access##{few}" = "IMAPアクセス用に {folders} フォルダを有効にしてください";
+"Please, enable {folders} folders for IMAP access##{many}" = "IMAPアクセス用に {folders} フォルダを有効にしてください";
+"Please, enable {folders} folders for IMAP access##{other}" = "IMAPアクセス用に {folders} フォルダを有効にしてください";
+
+/* No comment provided by engineer. */
+"Your e-mail to {first} & {other} others was not send. Please open Spark to send it manually.##{one}" = "{first} ＆ {other} へのメールが送信されませんでした。手動で送信するにはSparkを開いてください。";
+"Your e-mail to {first} & {other} others was not send. Please open Spark to send it manually.##{few}" = "{first} ＆ {other} へのメールが送信されませんでした。手動で送信するにはSparkを開いてください。";
+"Your e-mail to {first} & {other} others was not send. Please open Spark to send it manually.##{many}" = "{first} ＆ {other} へのメールが送信されませんでした。手動で送信するにはSparkを開いてください。";
+"Your e-mail to {first} & {other} others was not send. Please open Spark to send it manually.##{other}" = "{first} ＆ {other} へのメールが送信されませんでした。手動で送信するにはSparkを開いてください。";
+
+"%d day(s)##{one}" = "%d 日";
+"%d day(s)##{few}" = "%d 日";
+"%d day(s)##{many}" = "%d 日";
+"%d day(s)##{other}" = "%d 日";
+
+"%d hour(s)##{one}" = "%d 時間";
+"%d hour(s)##{few}" = "%d 時間";
+"%d hour(s)##{many}" = "%d 時間";
+"%d hour(s)##{other}" = "%d 時間";
+
+"%d New Message(s)##{one}" = "%d 件の新規メッセージ";
+"%d New Message(s)##{few}" = "%d 件の新規メッセージ";
+"%d New Message(s)##{many}" = "%d 件の新規メッセージ";
+"%d New Message(s)##{other}" = "%d 件の新規メッセージ";
+
+"Include %lu attachment(s)##{one}" = "Include %lu attachment";
+"Include %lu attachment(s)##{few}" = "Include %lu attachments";
+"Include %lu attachment(s)##{many}" = "Include %lu attachments";
+"Include %lu attachment(s)##{other}" = "Include %lu attachments";
+
+"⏰Reminder\n%lu snoozed message(s) have been returned to your Inbox##{one}" = "⏰メモ\ n％luスヌーズメッセージが受信トレイに返されました";
+"⏰Reminder\n%lu snoozed message(s) have been returned to your Inbox##{few}" = "⏰メモ\ n％luスヌーズメッセージが受信トレイに返されました";
+"⏰Reminder\n%lu snoozed message(s) have been returned to your Inbox##{many}" = "⏰メモ\ n％luスヌーズメッセージが受信トレイに返されました";
+"⏰Reminder\n%lu snoozed message(s) have been returned to your Inbox##{other}" = "⏰メモ\ n％luスヌーズメッセージが受信トレイに返されました";
+
+/* contact names string divider */
+" and " = " と ";
+
+/* No comment provided by engineer. */
+" to see the full message, open it on iPhone" = " メッセージ全体を見るには、iPhoneで開きます";
+
+/* email composer field */
+" To:" = " 宛名:";
+
+/* file size in some units (i.e. '314 bytes') */
+"%.0f %@" = "%1$.0f %2$@";
+
+/* file size in gigabytes (i.e. '3.14 GB') */
+"%.2f GB" = "%.2f GB";
+
+/* file size in kilobytes (i.e. '3.14 kB') */
+"%.2f KB" = "%.2f KB";
+
+/* file size in megabytes (i.e. '3.14 MB') */
+"%.2f MB" = "%.2f MB";
+
+/* File size in bytes (example: 1 B) */
+"%1.1f B" = "%1.1f B";
+
+/* File size in gigabytes (example: 1 GB) */
+"%1.1f GB" = "%1.1f GB";
+
+/* File size in kilobytes (example: 1 KB) */
+"%1.1f KB" = "%1.1f KB";
+
+/* File size in megabytes (example: 1 MB) */
+"%1.1f MB" = "%1.1f MB";
+
+/* File size in terabytes (example: 1 TB) */
+"%1.1f TB" = "%1.1f TB";
+
+/* Title: File size and last modified timestamp (example: 5MB - Last Update : 2013-09-06 03:55) */
+"%@ - Last update : %@" = "%1$@ - 最終更新 : %2$@";
+
+/* No comment provided by engineer. */
+"%@ accepted the invitation" = "％@ が招待を承認しました";
+
+/* No comment provided by engineer. */
+"%@ and %@" = "%1$@ と %2$@";
+
+/* No comment provided by engineer. */
+"%@ and %lu more people##{one}" = "%1$@ と %2$lu と他...";
+
+/* No comment provided by engineer. */
+"%@ and %lu more people##{few}" = "%1$@ と %2$lu と他...";
+
+/* No comment provided by engineer. */
+"%@ and %lu more people##{many}" = "%1$@ と %2$lu と他...";
+
+/* No comment provided by engineer. */
+"%@ and %lu more people##{other}" = "%1$@ と %2$lu と他...";
+
+/* No comment provided by engineer. */
+"%@ can't open file" = "%@ が開けませんでした";
+
+/* No comment provided by engineer. */
+"%@ declined the invitation" = "%@ は招待を辞退しました";
+
+/* attachment download progress */
+"%@ of %@" = "%2$@ 中の %1$@ ";
+
+/* No comment provided by engineer. */
+"%@ tentatively accepted the invitation" = "%@ が招待を暫定的に承認しました";
+
+/* alert title */
+"%app% cannot show you Badges because you turned them off in iOS settings. Please go to Settings > Notifications > %app%, set “Allow Notifications” to ON and ensure that “Badge App Icon” switch is enabled." = "iOS設定でバッジをオフにしたため、％app％ ではバッジを表示できません。 [設定]> [通知]> [ ％app％ ]に移動し、[通知を許可]をオンに設定して、[バッジ]スイッチが有効になっていることを確認してください。";
+
+/* privacy placeholder */
+"%app% doesn't have access to your calendars. You can enable access in the Privacy Settings." = "%app% はカレンダーにアクセスできません。プライバシー設定でアクセスを有効にすることができます。";
+
+/* help bubble */
+"%app% found the e-mail signatures, you use the most. Now you can apply all of them!" = "%app% はいつも使用している署名を見つけました。全てをこれに変更できます。";
+
+/* No comment provided by engineer. */
+"%d days" = "%d days";
+
+
+/* No comment provided by engineer. */
+"%llu Selected" = "%llu 選択済み";
+
+/* No comment provided by engineer. */
+"%lu Pinned Messages" = "%lu 件のピン済メッセージ";
+
+
+
+/* No comment provided by engineer. */
+"*Personal* messages come first, then *Notification*-kind ones and *Newsletters* afterwards." = "*Personal* messages come first, then *Notification*-kind ones and *Newsletters* afterwards.";
+
+/* help bubble */
+"*Type Cc or Bcc* to send a copy of this e-mail to other people. Or keep entering your primary recipients." = "*Type Cc or Bcc* to send a copy of this email to other people. Or keep entering your primary recipients.";
+
+/* Forwarded line template */
+"---------- Forwarded message ----------" = "---------- Forwarded message ----------";
+
+/* No comment provided by engineer. */
+"1 day" = "1 day";
+
+/* Date line template */
+"<b>Date:</b> {date}" = "<b>日付:</b> {date}";
+
+/* From line template */
+"<b>From:</b> {fromAddr}" = "<b>送信元:</b> {fromAddr}";
+
+/* Subject line template */
+"<b>Subject:</b> {subject}" = "<b>件名:</b> {subject}";
+
+/* To line template */
+"<b>To:</b> {toAddr}" = "<b>宛先:</b> {toAddr}";
+
+/* No comment provided by engineer. */
+"<i>No sender</i>" = "<i>送信者なし</i>";
+
+/* No comment provided by engineer. */
+"<strong>%@</strong>" = "<strong>%@</strong>";
+
+/* No comment provided by engineer. */
+"<strong>%@</strong> | %@" = "<strong>%1$@</strong> | %2$@";
+
+/* No comment provided by engineer. */
+"\
+Your e-mail server doesn't support secure connections.\
+Only secure accounts can be used with Spark.\
+Please try to re-connect with another connection settings." = "\nYour email server doesn't support secure connections.\nOnly secure accounts can be used with Spark.\nPlease try to re-connect with another connection settings";
+
+/* No comment provided by engineer. */
+"\"%@\" does not appear to be a valid e-mail address." = "\"%@\" does not appear to be a valid email address.";
+
+/* No comment provided by engineer. */
+"\"%@\" does not appear to be a valid e-mail address. Do you want to send it anyway?" = "\"%@\" does not appear to be a valid email address. Do you want to send it anyway?";
+
+/* No comment provided by engineer. */
+"Abort" = "Abort";
+
+/* No comment provided by engineer. */
+"Accept" = "Accept";
+
+/* No comment provided by engineer. */
+"Accepted" = "Accepted";
+
+/* Invitation reply template */
+"Accepted: {original_subject}" = "Accepted: {original_subject}";
+
+/* No comment provided by engineer. */
+"Access denied." = "Access denied.";
+
+/* No comment provided by engineer. */
+"Account" = "Account";
+
+/* No comment provided by engineer. */
+"Account Details" = "Account Details";
+
+/* No comment provided by engineer. */
+"Account with address\n%@\nis already added" = "Account with address\n%@\nis already added";
+
+/* No comment provided by engineer. */
+"Accounts" = "Accounts";
+
+/* No comment provided by engineer. */
+"Action %llu" = "Action %llu";
+
+/* No comment provided by engineer. */
+"Actions" = "Actions";
+
+/* No comment provided by engineer. */
+"Actual Size %@" = "Actual Size %@";
+
+/* No comment provided by engineer. */
+"Actual Size (%@)" = "Actual Size (%@)";
+
+/* No comment provided by engineer. */
+"Add" = "Add";
+
+/* button title */
+"Add Account" = "Add Account";
+
+/* button title */
+"Add Another E-mail Account" = "Add Another Email Account";
+
+/* No comment provided by engineer. */
+"Add more accounts" = "Add more accounts";
+
+/* No comment provided by engineer. */
+"Add new" = "Add new";
+
+/* button title */
+"Add Service" = "Add Service";
+
+/* button title */
+"Add Signature" = "Add Signature";
+
+/* No comment provided by engineer. */
+"Add to Contacts" = "Add to Contacts";
+
+/* No comment provided by engineer. */
+"Adding account" = "Adding account";
+
+/* No comment provided by engineer. */
+"Albums" = "Albums";
+
+/* No comment provided by engineer. */
+"Alert" = "Alert";
+
+/* No comment provided by engineer. */
+"Aliases" = "Aliases";
+
+/* No comment provided by engineer. */
+"All" = "全て";
+
+/* No comment provided by engineer. */
+"All Accounts" = "全てのアカウント";
+
+/* No comment provided by engineer. */
+"All Inboxes" = "全てのトレイ";
+
+/* No comment provided by engineer. */
+"All read e-mails from your Inbox are here." = "All read emails from your Inbox are here.";
+
+/* calendar - all day section */
+"all-day" = "all-day";
+
+/* No comment provided by engineer. */
+"Amazon Purchase" = "Amazon Purchase";
+
+/* Desciptive : Prompt explaining that an error occured during an API call */
+"An error occured while retrieving data" = "An error occured while retrieving data";
+
+/* No comment provided by engineer. */
+"AOL" = "AOL";
+
+/* No comment provided by engineer. */
+"Application cards" = "Application cards";
+
+/* No comment provided by engineer. */
+"Apply" = "Apply";
+
+/* Apply To All */
+"Apply to all" = "Apply to all";
+
+/* 3d touch action
+ undoable action name
+*/
+"Archive" = "Archive";
+
+/* No comment provided by engineer. */
+"Archive and Delete" = "Archive and Delete";
+
+/* undoable action name */
+"Archived" = "Archived";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete the account?" = "Are you sure you want to delete the account?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to send a reply?" = "Are you sure you want to send a reply?";
+
+/* No comment provided by engineer. */
+"Are you sure?" = "Are you sure?";
+
+/* No comment provided by engineer. */
+"Asset Size" = "Asset Size";
+
+/* 3d touch action */
+"Attach" = "Attach";
+
+/* No comment provided by engineer. */
+"Attach as Archive" = "Attach as Archive";
+
+/* No comment provided by engineer. */
+"Attach as Link" = "Attach as Link";
+
+/* No comment provided by engineer. */
+"Attach File" = "Attach File";
+
+/* Message composer error */
+"Attaching directories and bundles is not supported yet. Please, consider to archive your document into single file before sending" = "Attaching directories and bundles is not supported yet. Please, consider to archive your document into single file before sending";
+
+/* No comment provided by engineer. */
+"Attachment" = "添付ファイル";
+
+/* sharing ext. error */
+"Attachment is too large" = "Attachment is too large";
+
+/* Message composer warning */
+"Attachments" = "添付ファイル";
+
+/* No comment provided by engineer. */
+"Attendees" = "Attendees";
+
+/* No comment provided by engineer. */
+"Attendees:" = "Attendees:";
+
+/* No comment provided by engineer. */
+"Autohorization failed." = "Authorization failed.";
+
+/* Title : cell allowing the user to go back in the viewControllers tree */
+"Back" = "Back";
+
+/* No comment provided by engineer. */
+"Bad refresh token" = "Bad refresh token";
+
+/* button title */
+"Badges" = "Badges";
+
+/* No comment provided by engineer. */
+"Badges are disabled due to unavailability of background refresh." = "Badges are disabled due to unavailability of background refresh.";
+
+/* No comment provided by engineer. */
+"Badges are disabled due to unavailability of background refresh. Please, go to Settings > General > Background App Refresh and enable this option for Spark." = "Badges are disabled due to unavailability of background refresh. Please, go to Settings > General > Background App Refresh and enable this option for Spark.";
+
+/* No comment provided by engineer. */
+"Badges are not available" = "Badges are not available";
+
+/* No comment provided by engineer. */
+"Bottom" = "Bottom";
+
+/* No comment provided by engineer. */
+"Bottom Section" = "Bottom Section";
+
+/* No comment provided by engineer. */
+"Box" = "Box";
+
+/* Alert view message: Message for SSO server trust challenge, giving the user the host of the server who's identity cannot be verified. */
+"Box cannot verify the identity of \"%@\". Would you like to continue anyway?" = "Box cannot verify the identity of \"%@\". Would you like to continue anyway?";
+
+/* No comment provided by engineer. */
+"Bundle Read E-mails" = "Bundle Read Emails";
+
+/* No comment provided by engineer. */
+"by %@" = "by %@";
+
+/* No comment provided by engineer. */
+"by %@ | %@" = "by %1$@ | %2$@";
+
+/* No comment provided by engineer. */
+"By enabling notifications you will never miss an important e-mail." = "By enabling notifications you will never miss an important email.";
+
+/* bytes label in file size */
+"bytes" = "bytes";
+
+/* No comment provided by engineer. */
+"Cache is not initialized." = "Cache is not initialized.";
+
+/* No comment provided by engineer. */
+"Calendar" = "Calendar";
+
+/* No comment provided by engineer. */
+"Calendar, Attachments, Smart Folders and other widgets are at your service." = "Calendar, Attachments, Smart Folders and other widgets are at your service.";
+
+/* Dialog Title */
+"Calendars" = "Calendars";
+
+/* No comment provided by engineer. */
+"Call" = "Call";
+
+/* No comment provided by engineer. */
+"Camera" = "Camera";
+
+/* No comment provided by engineer. */
+"Camera Roll" = "Camera Roll";
+
+/* No comment provided by engineer. */
+"Can't add account" = "Can't add account";
+
+/* Message composer error */
+"Can't attach directory" = "Can't attach directory";
+
+/* Message composer error */
+"Can't attach file" = "Can't attach file";
+
+/* No comment provided by engineer. */
+"Can't connect to the server." = "Can't connect to the server.";
+
+/* No comment provided by engineer. */
+"Can't create an event. Please go to Calendar app and create at least one event." = "Can't create an event. Please go to Calendar app and create at least one event.";
+
+/* No comment provided by engineer. */
+"Can't create event" = "Can't create event";
+
+/* No comment provided by engineer. */
+"Can't delete e-mails in {folder} folder." = "Can't delete emails in {folder} folder.";
+
+/* No comment provided by engineer. */
+"Can't sent data" = "Can't sent data";
+
+/* No comment provided by engineer. */
+"Can't show content of file." = "Can't show content of file.";
+
+/* Button title: cancel action
+ Cancel
+*/
+"Cancel" = "Cancel";
+
+/* Alert view title: title for SSO server trust challenge */
+"Cannot Verify Server Identity" = "Cannot Verify Server Identity";
+
+/* No comment provided by engineer. */
+"Card Action" = "Card Action";
+
+/* No comment provided by engineer. */
+"Cards" = "Cards";
+
+/* No comment provided by engineer. */
+"Cellular" = "Cellular";
+
+/* No comment provided by engineer. */
+"Center" = "Center";
+
+/* No comment provided by engineer. */
+"Checking account" = "Checking account";
+
+/* No comment provided by engineer. */
+"Choose one of these signatures to be used for %@ as default" = "Choose one of these signatures to be used for %@ as default";
+
+/* No comment provided by engineer. */
+"Clean Inbox" = "Clean Inbox";
+
+/* undoable action name */
+"Clear" = "消去";
+
+/* undoable action name */
+"Clear task" = "タスクを消去";
+
+/* alert button
+ Title : button closing the folder picker
+*/
+"Close" = "Close";
+
+/* No comment provided by engineer. */
+"Coming soon" = "Coming soon";
+
+/* undoable action name */
+"Complete" = "Complete";
+
+/* No comment provided by engineer. */
+"Compose" = "Compose";
+
+/* No comment provided by engineer. */
+"Conneciton failed." = "Connection failed.";
+
+/* No comment provided by engineer. */
+"Connect to Service" = "Connect to Service";
+
+/* settings */
+"Connected Services" = "Connected Services";
+
+/* No comment provided by engineer. */
+"Connecting" = "Connecting";
+
+/* No comment provided by engineer. */
+"Connection Logging" = "Connection Logging";
+
+/* No comment provided by engineer. */
+"Contacts" = "Contacts";
+
+/* No comment provided by engineer. */
+"Content based cards" = "Content based cards";
+
+/* No comment provided by engineer. */
+"Context" = "Context";
+
+/* Alert view button: button title for when the user would like to continue with their action */
+"Continue" = "Continue";
+
+/* No comment provided by engineer. */
+"Continue with free plan" = "Continue with free plan";
+
+/* No comment provided by engineer. */
+"Copy" = "Copy";
+
+/* Alert view message: message for failed SSO login due to untrusted (for example: self signed) certificate */
+"Could not complete login because the SSO server is untrusted. Please contact your administrator for more information." = "Could not complete login because the SSO server is untrusted. Please contact your administrator for more information.";
+
+/* No comment provided by engineer. */
+"Could not resolve host." = "Could not resolve host.";
+
+/* No comment provided by engineer. */
+"Count for" = "Count for";
+
+/* No comment provided by engineer. */
+"Create event" = "Create event";
+
+/* No comment provided by engineer. */
+"Custom" = "Custom";
+
+/* No comment provided by engineer. */
+"Customize" = "Customize";
+
+/* No comment provided by engineer. */
+"Customize Snooze" = "Customize Snooze";
+
+/* No comment provided by engineer. */
+"Customize Snoozes" = "Customize Snoozes";
+
+/* No comment provided by engineer. */
+"Decline" = "Decline";
+
+/* No comment provided by engineer. */
+"Declined" = "Declined";
+
+/* Invitation reply template */
+"Declined: {original_subject}" = "Declined: {original_subject}";
+
+/* No comment provided by engineer. */
+"Default Alert" = "Default Alert";
+
+/* No comment provided by engineer. */
+"Default Browser" = "Default Browser";
+
+/* account settings */
+"Default E-mail Address" = "Default Email Address";
+
+/* No comment provided by engineer. */
+"Default for Accounts" = "Default for Accounts";
+
+/* No comment provided by engineer. */
+"Default for: %@" = "Default for: %@";
+
+/* No comment provided by engineer. */
+"Default Signature" = "Default Signature";
+
+/* 3d touch action
+ cell swipe action title
+*/
+"Delete" = "Delete";
+
+/* No comment provided by engineer. */
+"Delete account" = "Delete account";
+
+/* No comment provided by engineer. */
+"Delete Draft" = "Delete Draft";
+
+/* No comment provided by engineer. */
+"Deleting" = "Deleting";
+
+/* No comment provided by engineer. */
+"Deleting..." = "Deleting...";
+
+/* No comment provided by engineer. */
+"Deselect All" = "Deselect All";
+
+/* No comment provided by engineer. */
+"Details" = "Details";
+
+/* AppStore app status */
+"Developer Rejected" = "Developer Rejected";
+
+/* AppStore app status */
+"Developer Removed From Sale" = "Developer Removed From Sale";
+
+/* No comment provided by engineer. */
+"Directories and bundles can not be attached directly. Do you want to archive your files?" = "Directories and bundles can not be attached directly. Do you want to archive your files?";
+
+/* No comment provided by engineer. */
+"Do you like %app%?" = "Do you like %app%?";
+
+/* No comment provided by engineer. */
+"Do you want forward with attachments?" = "Do you want to forward with attachments?";
+
+/* No comment provided by engineer. */
+"Do you want to change your e-mail flow? This changes your Personalization settings to one of the predefined options." = "Do you want to change your email flow? This changes your Personalization settings to one of the predefined options.";
+
+/* No comment provided by engineer. */
+"Do you want to delete selected items permanently? " = "Do you want to delete selected items permanently? ";
+
+/* No comment provided by engineer. */
+"Do you want to delete this draft permanently?" = "Do you want to delete this draft permanently?";
+
+/* No comment provided by engineer. */
+"Do you want to delete this message permanently?" = "Do you want to delete this message permanently?";
+
+/* No comment provided by engineer. */
+"Do you want to delete this thread permanently? " = "Do you want to delete this thread permanently? ";
+
+/* No comment provided by engineer. */
+"Do you want to permanently delete all the e-mails inside {folder} folder?" = "Do you want to permanently delete all the emails inside {folder} folder?";
+
+/* No comment provided by engineer. */
+"Do you wish to delete selected item permanently?" = "Do you wish to delete selected item permanently?";
+
+/* No comment provided by engineer. */
+"Do you wish to delete selected items permanently? " = "Do you wish to delete selected items permanently? ";
+
+/* No comment provided by engineer. */
+"Do you wish to delete the message permanently?" = "Do you wish to delete the message permanently?";
+
+/* No comment provided by engineer. */
+"Do you wish to delete the thread permanently?" = "Do you wish to delete the thread permanently?";
+
+/* No comment provided by engineer. */
+"Do you wish to move the message to trash folder?" = "Do you wish to move the message to trash folder?";
+
+/* No comment provided by engineer. */
+"Do you wish to move the thread to trash folder?" = "Do you wish to move the thread to trash folder?";
+
+/* No comment provided by engineer. */
+"Domain (optional)" = "Domain (optional)";
+
+/* button title */
+"Done" = "完了";
+
+/* loading view text */
+"Downloading attachments" = "添付ファイルをダウンロード";
+
+/* No comment provided by engineer. */
+"Downloading..." = "ダウンロード中...";
+
+/* undoable action name */
+"Draft deleted" = "下書きは消去されました";
+
+/* No comment provided by engineer. */
+"Drafts" = "下書き";
+
+/* undoable action name */
+"Drafts deleted" = "下書きは消去されました";
+
+/* No comment provided by engineer. */
+"Dropbox" = "Dropbox";
+
+/* mail message sent alert */
+"E-mail was sent successfully." = "Email was sent successfully.";
+
+/* button title */
+"Edit" = "編集";
+
+/* No comment provided by engineer. */
+"Edit Signature" = "署名を編集";
+
+/* No comment provided by engineer. */
+"E-mail address does not exist." = "Email address does not exist.";
+
+/* No comment provided by engineer. */
+"E-mail Flow" = "Email Flow";
+
+
+/* No comment provided by engineer. */
+"E-mails cannot be moved between the accounts while offline." = "Emails cannot be moved between accounts in offline mode.";
+
+/* File size 0 bytes */
+"Empty" = "Empty";
+
+/* No comment provided by engineer. */
+"Empty message with attachments." = "Empty message with attachments.";
+
+/* No comment provided by engineer. */
+"Empty message with images." = "Empty message with images.";
+
+/* No comment provided by engineer. */
+"Empty message." = "Empty message.";
+
+/* validFileName error */
+"Empty name cannot be used" = "Empty name cannot be used";
+
+/* Message composer warning */
+"Empty subject" = "Empty subject";
+
+/* No comment provided by engineer. */
+"Empty {folder}" = "Empty {folder}";
+
+/* alert button */
+"Enable" = "Enable";
+
+/* No comment provided by engineer. */
+"Enter e-mail:" = "Enter email:";
+
+/* No comment provided by engineer. */
+"Enter Login" = "Enter Login";
+
+/* No comment provided by engineer. */
+"Enter password" = "Enter password";
+
+/* No comment provided by engineer. */
+"Error" = "Error";
+
+/* No comment provided by engineer. */
+"Events" = "Events";
+
+/* No comment provided by engineer. */
+"Evernote" = "Evernote";
+
+/* No comment provided by engineer. */
+"Exchange" = "Exchange";
+
+/* No comment provided by engineer. */
+"Failed to check sync folder existence." = "Failed to check sync folder existence.";
+
+/* No comment provided by engineer. */
+"failed to convert data to string" = "failed to convert data to string";
+
+/* No comment provided by engineer. */
+"failed to convert string to data" = "failed to convert string to data";
+
+/* No comment provided by engineer. */
+"Failed to fetch image" = "Failed to fetch image";
+
+/* No comment provided by engineer. */
+"Failed to get credentials from password manager" = "Failed to get credentials from password manager";
+
+/* No comment provided by engineer. */
+"Failed to get remote and local changes." = "Failed to get remote and local changes.";
+
+/* No comment provided by engineer. */
+"Failed to import thread" = "Failed to import thread";
+
+/* No comment provided by engineer. */
+"Failed to prepare exported data" = "Failed to prepare exported data";
+
+/* No comment provided by engineer. */
+"Failed to prepare file for export" = "Failed to prepare file for export";
+
+/* No comment provided by engineer. */
+"Failed to present attachment interaction options" = "Failed to present attachment interaction options";
+
+/* No comment provided by engineer. */
+"Failed to save attachment" = "Failed to save attachment";
+
+/* No comment provided by engineer. */
+"Failed to start requested operation." = "Failed to start requested operation.";
+
+/* No comment provided by engineer. */
+"Failed to sync some files / folders in sync folder." = "Failed to sync some files / folders in sync folder.";
+
+/* No comment provided by engineer. */
+"Favorites" = "お気に入り";
+
+/* No comment provided by engineer. */
+"Fetching notebooks..." = "Fetching notebooks...";
+
+/* No comment provided by engineer. */
+"File" = "File";
+
+/* No comment provided by engineer. */
+"File already exists in remote storage" = "File already exists in remote storage";
+
+/* Message composer error */
+"File is too large" = "File is too large";
+
+/* validFileName error */
+"File name cannot be started with dot" = "File name cannot be started with dot";
+
+/* validFileName error */
+"File name cannot contain \"/\" character" = "File name cannot contain \"/\" character";
+
+/* No comment provided by engineer. */
+"File transfer failed." = "File transfer failed.";
+
+/* No comment provided by engineer. */
+"File was successfully uploaded." = "File was successfully uploaded.";
+
+/* Message composer error
+ sharing ext. error
+*/
+"Files larger than {file_size} can't be sent" = "Files larger than {file_size} can't be sent";
+
+/* No comment provided by engineer. */
+"Flight" = "Flight";
+
+/* No comment provided by engineer. */
+"Folder" = "Folder";
+
+/* No comment provided by engineer. */
+"Folders" = "Folders";
+
+/* 3d touch action */
+"Forward" = "転送";
+
+/* No comment provided by engineer. */
+"FORWARDED E-MAIL:" = "FORWARDED EMAIL:";
+
+/* No comment provided by engineer. */
+"Free Plan" = "Free Plan";
+
+/* message compoer field name */
+"From:" = "From:";
+
+/* No comment provided by engineer. */
+"From: " = "From: ";
+
+/* No comment provided by engineer. */
+"General" = "General";
+
+/* No comment provided by engineer. */
+"Get notified only when you receive the message you care about." = "Get notified only when you receive the message you care about.";
+
+/* No comment provided by engineer. */
+"Get Started" = "Get Started";
+
+/* No comment provided by engineer. */
+"Gmail" = "Gmail";
+
+/* No comment provided by engineer. */
+"Google Docs" = "Google Docs";
+
+/* No comment provided by engineer. */
+"Google Drive" = "Google Drive";
+
+/* No comment provided by engineer. */
+"Google Sheets" = "Google Sheets";
+
+/* No comment provided by engineer. */
+"Great to hear that! Can you write a quick review on the App Store to help other people evaluate Spark?" = "Great to hear that! Can you write a quick review on the App Store to help other people evaluate Spark?";
+
+/* No comment provided by engineer. */
+"Grouped" = "Grouped";
+
+/* No comment provided by engineer. */
+"Grouping" = "Grouping";
+
+/* No comment provided by engineer. */
+"Hide History" = "Hide History";
+
+/* No comment provided by engineer. */
+"Home" = "Home";
+
+/* No comment provided by engineer. */
+"Hours" = "Hours";
+
+/* No comment provided by engineer. */
+"I'm ready to get started!" = "I'm ready to get started!";
+
+/* No comment provided by engineer. */
+"iCal" = "iCal";
+
+/* No comment provided by engineer. */
+"iCloud" = "iCloud";
+
+/* No comment provided by engineer. */
+"iCloud Drive" = "iCloud Drive";
+
+/* No comment provided by engineer. */
+"Icon" = "Icon";
+
+/* No comment provided by engineer. */
+"Image" = "Image";
+
+/* No comment provided by engineer. */
+"Important" = "Important";
+
+/* No comment provided by engineer. */
+"Important contacts" = "Important contacts";
+
+/* No comment provided by engineer. */
+"In a Month" = "In a Month";
+
+/* AppStore app status */
+"In Review" = "In Review";
+
+/* No comment provided by engineer. */
+"Inbox" = "受信トレイ";
+
+/* No comment provided by engineer. */
+"Incoming Mail Server (IMAP)" = "Incoming Mail Server (IMAP)";
+
+/* No comment provided by engineer. */
+"Instapaper" = "Instapaper";
+
+/* Message composer warning */
+"Invalid Address" = "Invalid Address";
+
+/* AppStore app status */
+"Invalid Binary" = "Invalid Binary";
+
+/* No comment provided by engineer. */
+"Invalid credentials" = "Invalid credentials";
+
+/* No comment provided by engineer. */
+"Invalid username or password." = "Invalid username or password.";
+
+/* No comment provided by engineer. */
+"Invite" = "Invite";
+
+/* No comment provided by engineer. */
+"Invite Others" = "Invite Others";
+
+/* No comment provided by engineer. */
+"Invites" = "Invites";
+
+/* group header */
+"iOS Calendars" = "iOS Calendars";
+
+/* No comment provided by engineer. */
+"Items" = "Items";
+
+/* No comment provided by engineer. */
+"iTunes Connect" = "iTunes Connect";
+
+/* default sender name for quick reply preview */
+"John Dawson" = "John Dawson";
+
+/* No comment provided by engineer. */
+"Keep Both" = "Keep Both";
+
+/* No comment provided by engineer. */
+"Keep in Inbox" = "Keep in Inbox";
+
+/* No comment provided by engineer. */
+"Large %@" = "Large %@";
+
+/* No comment provided by engineer. */
+"Large (%@)" = "Large (%@)";
+
+/* No comment provided by engineer. */
+"Later" = "Later";
+
+/* No comment provided by engineer. */
+"Later Today" = "Later Today";
+
+/* No comment provided by engineer. */
+"Launch %@ App" = "Launch %@ App";
+
+/* No comment provided by engineer. */
+"Learn more" = "Learn more";
+
+/* No comment provided by engineer. */
+"Left" = "Left";
+
+/* No comment provided by engineer. */
+"Left Long" = "Left Long";
+
+/* No comment provided by engineer. */
+"Left Short" = "Left Short";
+
+/* button title
+ Legal notes in settings title
+*/
+"Legal Notes" = "Legal Notes";
+
+/* No comment provided by engineer. */
+"Less than hour" = "Less than hour";
+
+/* No comment provided by engineer. */
+"Let Me Add Text" = "Let me add text";
+
+/* mail letter saved alert */
+"Letter saved in Drafts folder" = "Letter saved in Drafts folder";
+
+/* No comment provided by engineer. */
+"Link" = "Link";
+
+/* No comment provided by engineer. */
+"Link from %@" = "Link from %@";
+
+/* No comment provided by engineer. */
+"Link opened by " = "Link opened by ";
+
+/* No comment provided by engineer. */
+"Link saved to %@" = "Link saved to %@";
+
+/* No comment provided by engineer. */
+"Link was successfully uploaded." = "Link was successfully uploaded.";
+
+/* No comment provided by engineer. */
+"Linked E-mails" = "Linked Emails";
+
+/* Title : Cell allowing the user to load the next page of items */
+"Load more files ..." = "Load more files ...";
+
+/* No comment provided by engineer. */
+"Load more..." = "Load more...";
+
+/* No comment provided by engineer. */
+"Load Remote Images" = "Load Remote Images";
+
+/* No comment provided by engineer. */
+"Loading" = "Loading";
+
+/* No comment provided by engineer. */
+"Loading..." = "Loading...";
+
+/* No comment provided by engineer. */
+"Local disk is full." = "Local disk is full.";
+
+/* No comment provided by engineer. */
+"Local file does not exist." = "Local file does not exist.";
+
+/* No comment provided by engineer. */
+"Log in" = "Log in";
+
+/* No comment provided by engineer. */
+"Log in to %@" = "Log in to %@";
+
+/* No comment provided by engineer. */
+"Login" = "Login";
+
+/* No comment provided by engineer. */
+"Login Failed" = "Login Failed";
+
+/* Alert view title: Title for failed SSO login due to authentication issue */
+"Login Failure" = "Login Failure";
+
+/* No comment provided by engineer. */
+"Login to Pocket was interrupted" = "Login to Pocket was interrupted";
+
+/* No comment provided by engineer. */
+"Mail" = "Mail";
+
+/* No comment provided by engineer. */
+"Mail Accounts" = "Mail Accounts";
+
+/* No comment provided by engineer. */
+"MailApp" = "MailApp";
+
+/* No comment provided by engineer. */
+"Mailbox" = "Mailbox";
+
+/* No comment provided by engineer. */
+"Main Toolbar Action" = "Main Toolbar Action";
+
+/* No comment provided by engineer. */
+"Mark All as Read" = "Mark All as Read";
+
+/* No comment provided by engineer. */
+"Mark as Read" = "Mark as Read";
+
+/* 3d touch action */
+"Mark As Read" = "Mark As Read";
+
+/* No comment provided by engineer. */
+"Mark as Spam" = "Mark as Spam";
+
+/* 3d touch action */
+"Mark As Unread" = "Mark As Unread";
+
+/* No comment provided by engineer. */
+"Mark as Unread" = "Mark as Unread";
+
+/* undoable action name */
+"Mark as unseen" = "Mark as unread";
+
+/* No comment provided by engineer. */
+"Marked as Not Spam" = "Marked as Not Spam";
+
+/* undoable action name */
+"Marked as read" = "Marked as read";
+
+/* undoable action name */
+"Marked as seen" = "Marked as read";
+
+/* No comment provided by engineer. */
+"Marked as Spam" = "Marked as Spam";
+
+/* undoable action name */
+"Marked as unread" = "Marked as unread";
+
+/* undoable action name */
+"Marked as unseen" = "Marked as unread";
+
+/* No comment provided by engineer. */
+"Marked card as read" = "Marked card as read";
+
+/* No comment provided by engineer. */
+"Marked cards as read" = "Marked cards as read";
+
+/* No comment provided by engineer. */
+"Maybe" = "Maybe";
+
+/* No comment provided by engineer. */
+"Me" = "Me";
+
+/* No comment provided by engineer. */
+"Medium %@" = "Medium %@";
+
+/* No comment provided by engineer. */
+"Medium (%@)" = "Medium (%@)";
+
+/* No comment provided by engineer. */
+"Menu" = "Menu";
+
+/* No comment provided by engineer. */
+"message" = "message";
+
+/* No comment provided by engineer. */
+"Message" = "Message";
+
+/* undoable action name */
+"Message archived" = "Message archived";
+
+/* No comment provided by engineer. */
+"Message cards" = "Message cards";
+
+/* undoable action name */
+"Message deleted" = "Message deleted";
+
+/* Message composer error */
+"Message is too large" = "Message is too large";
+
+/* undoable action name */
+"Message moved" = "Message moved";
+
+/* No comment provided by engineer. */
+"Message moved to Spam" = "Message moved to Spam";
+
+/* No comment provided by engineer. */
+"Message not found" = "Message not found";
+
+/* undoable action name */
+"Message sent" = "Message sent";
+
+/* No comment provided by engineer. */
+"Message Type" = "Message Type";
+
+/* undoable action name */
+"Messages archived" = "Messages archived";
+
+/* undoable action name */
+"Messages deleted" = "Messages deleted";
+
+/* Message composer error */
+"Messages larger than {file_size} can't be sent" = "Messages larger than {file_size} can't be sent";
+
+/* undoable action name */
+"Messages read" = "Messages read";
+
+/* undoable action name */
+"Messages unread" = "Messages unread";
+
+/* AppStore app status */
+"Metadata Rejected" = "Metadata Rejected";
+
+/* No comment provided by engineer. */
+"Minimize" = "Minimize";
+
+/* AppStore app status */
+"Missing Screenshot" = "Missing Screenshot";
+
+/* cURL success string */
+"Mission accomplished!" = "Mission accomplished!";
+
+/* cURL failure string */
+"Mission failed: Error %d" = "Mission failed: Error %d";
+
+/* No comment provided by engineer. */
+"More" = "その他";
+
+/* No comment provided by engineer. */
+"More than %d e-mail accounts are attached to this Premium subscription. Please remove the unnecessary ones associated with your subscription to restore access to Premium features." = "More than %d email accounts are attached to this Premium subscription. Please remove the unnecessary ones associated with your subscription to restore access to Premium features.";
+
+/* No comment provided by engineer. */
+"More than 20 e-mail accounts are attached to this Premium subscription. Please remove the unnecessary ones associated with your subscription to restore access to Premium features." = "More than 20 email accounts are attached to this Premium subscription. Please remove the unnecessary ones associated with your subscription to restore access to Premium features.";
+
+/* Composer Default Account Configuration */
+"Most Recent" = "Most Recent";
+
+/* No comment provided by engineer. */
+"Move" = "移動";
+
+/* undoable action name */
+"Move Message" = "Move Message";
+
+/* No comment provided by engineer. */
+"Move to " = "Move to ";
+
+/* No comment provided by engineer. */
+"Move to %@" = "Move to %@";
+
+/* No comment provided by engineer. */
+"Move to Archive" = "アーカイブに移動";
+
+/* No comment provided by engineer. */
+"Move to Folder" = "フォルダに移動";
+
+/* No comment provided by engineer. */
+"Move to Inbox" = "受信トレイに移動";
+
+/* No comment provided by engineer. */
+"Move to Spam" = "スパムにする";
+
+/* No comment provided by engineer. */
+"Move to Trash" = "ゴミ箱に移動";
+
+/* No comment provided by engineer. */
+"Moved to Inbox" = "Moved to Inbox";
+
+/* undoable action name */
+"Moved to inbox" = "Moved to inbox";
+
+/* undoable action name */
+"Moved to Trash" = "ゴミ箱に移動";
+
+/* No comment provided by engineer. */
+"Moving to " = "Moving to ";
+
+/* No comment provided by engineer. */
+"Moving to trash" = "Moving to trash";
+
+/* No comment provided by engineer. */
+"Moving..." = "Moving...";
+
+/* No comment provided by engineer. */
+"Multiple actions" = "Multiple actions";
+
+/* No comment provided by engineer. */
+"Mutes strangers and automated e-mails" = "Mutes strangers and automated emails";
+
+/* No comment provided by engineer. */
+"Name" = "Name";
+
+/* No comment provided by engineer. */
+"Name:" = "Name:";
+
+/* No comment provided by engineer. */
+"Network is not reachable." = "Network is not reachable.";
+
+/* No comment provided by engineer. */
+"New" = "新規";
+
+/* No comment provided by engineer. */
+"New E-mail" = "新規メール";
+
+/* No comment provided by engineer. */
+"New Messages Only" = "未開封のメッセージのみ";
+
+/* title */
+"New Signatures" = "新しい署名";
+
+/* No comment provided by engineer. */
+"News" = "ニュース";
+
+/* No comment provided by engineer. */
+"Newsletter" = "ニュースレター";
+
+/* navigation title */
+"Newsletters" = "ニュースレター";
+
+/* group messages cell */
+"NEWSLETTERS" = "ニュースレター";
+
+/* No comment provided by engineer. */
+"Newsletters (seen)" = "ニュースレター (開封済み)";
+
+/* help bubble button */
+"Next" = "次";
+
+/* No comment provided by engineer. */
+"Next Week" = "来週";
+
+/* No comment provided by engineer. */
+"NO" = "いいえ";
+
+/* No comment provided by engineer. */
+"No" = "いいえ";
+
+/* No comment provided by engineer. */
+"No attachments" = "No attachments";
+
+/* No comment provided by engineer. */
+"No Connection" = "No Connection";
+
+/* No comment provided by engineer. */
+"No content" = "No content";
+
+/* No comment provided by engineer. */
+"No content." = "No content.";
+
+/* No comment provided by engineer. */
+"No folder selected" = "No folder selected";
+
+/* No comment provided by engineer. */
+"No folders found for move operation" = "No folders found for move operation";
+
+/* No comment provided by engineer. */
+"No internet connection" = "No internet connection";
+
+/* No comment provided by engineer. */
+"No Internet Connection" = "No Internet Connection";
+
+/* No comment provided by engineer. */
+"No mail accounts" = "メールアカウントがありません";
+
+/* No comment provided by engineer. */
+"No messages" = "No messages";
+
+/* No comment provided by engineer. */
+"No New Mail" = "新しいメールはありません";
+
+/* No comment provided by engineer. */
+"No Notifications" = "通知はありません";
+
+/* No comment provided by engineer. */
+"No Pinned Messages" = "ピンされたメッセージはありません";
+
+/* No comment provided by engineer. */
+"No recent searches" = "最近の検索はありません";
+
+/* signature control */
+"No signature" = "署名なし";
+
+/* No comment provided by engineer. */
+"No smart filter" = "スマートフィルターはありません";
+
+/* No comment provided by engineer. */
+"No Subject" = "件名なし";
+
+/* No comment provided by engineer. */
+"No subject" = "件名なし";
+
+/* No comment provided by engineer. */
+"No tags" = "タグなし";
+
+/* No comment provided by engineer. */
+"Non-email cards" = "Non-email cards";
+
+/* No comment provided by engineer. */
+"None" = "なし";
+
+/* No comment provided by engineer. */
+"Not enough free space on device to sync folder." = "Not enough free space on device to sync folder.";
+
+/* No comment provided by engineer. */
+"Not enough free space on remote storage." = "Not enough free space on remote storage.";
+
+/* No comment provided by engineer. */
+"Not Now" = "Not Now";
+
+/* No comment provided by engineer. */
+"Not Spam" = "スパムではない";
+
+/* No comment provided by engineer. */
+"Note" = "Note";
+
+/* No comment provided by engineer. */
+"Notebook" = "Notebook";
+
+/* No comment provided by engineer. */
+"Notebooks" = "Notebooks";
+
+/* search no results */
+"Nothing found. Modify your search to find what you're looking for." = "Nothing found. Modify your search to find what you're looking for.";
+
+/* button title */
+"Notification Actions" = "Notification Actions";
+
+/* No comment provided by engineer. */
+"Notification Preferences" = "通知設定";
+
+/* group messages cell */
+"NOTIFICATIONS" = "NOTIFICATIONS";
+
+/* button title
+ navigation title
+*/
+"Notifications" = "Notifications";
+
+/* Button title: Dismiss the alert view */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"OK, I Understand" = "OK, I Understand";
+
+/* No comment provided by engineer. */
+"OK, Sure" = "OK, Sure";
+
+/* help bubble button */
+"Okay, got it!" = "Okay, got it!";
+
+/* Quote header template for reply */
+"On {date}, wrote:" = "On {date}, wrote:";
+
+/* Quote header template for reply */
+"On {date}, {fromAddr}, wrote:" = "On {date}, {fromAddr}, wrote:";
+
+/* No comment provided by engineer. */
+"OneDrive" = "OneDrive";
+
+/* No comment provided by engineer. */
+"OneDrive login failed" = "OneDrive login failed";
+
+/* No comment provided by engineer. */
+"OneNote" = "OneNote";
+
+/* No comment provided by engineer. */
+"OneNote login failed" = "OneNote login failed";
+
+/* No comment provided by engineer. */
+"Oops!" = "Oops!";
+
+/* No comment provided by engineer. */
+"Open Next" = "Open Next";
+
+/* No comment provided by engineer. */
+"Opened Link" = "Opened Link";
+
+/* No comment provided by engineer. */
+"Operation failed (%lu)" = "Operation failed (%lu)";
+
+/* No comment provided by engineer. */
+"Operation timed out" = "Operation timed out";
+
+/* No comment provided by engineer. */
+"Optional" = "Optional";
+
+/* No comment provided by engineer. */
+"Organizer" = "Organizer";
+
+/* No comment provided by engineer. */
+"Organizer: %@" = "Organizer: %@";
+
+/* settings group name */
+"Other" = "Other";
+
+/* No comment provided by engineer. */
+"Outbox" = "Outbox";
+
+/* No comment provided by engineer. */
+"Outgoing Mail Server (SMTP)" = "Outgoing Mail Server (SMTP)";
+
+/* No comment provided by engineer. */
+"Outlook" = "Outlook";
+
+/* No comment provided by engineer. */
+"Overwrite Existing" = "Overwrite Existing";
+
+/* No comment provided by engineer. */
+"Package Tracking" = "Package Tracking";
+
+/* No comment provided by engineer. */
+"Password" = "Password";
+
+/* No comment provided by engineer. */
+"Password manager did not found anything for this service" = "Password manager did not found anything for this service";
+
+/* No comment provided by engineer. */
+"Password manager encountered an issue" = "Password manager encountered an issue";
+
+/* No comment provided by engineer. */
+"Password manager returned unexpected result" = "Password manager returned unexpected result";
+
+/* AppStore app status */
+"Pending Apple Release" = "Pending Apple Release";
+
+/* AppStore app status */
+"Pending Contract" = "Pending Contract";
+
+/* AppStore app status */
+"Pending Developer Release" = "Pending Developer Release";
+
+/* No comment provided by engineer. */
+"Per Account" = "Per Account";
+
+/* No comment provided by engineer. */
+"Permission denied" = "Permission denied";
+
+/* No comment provided by engineer. */
+"Personal" = "パーソナル";
+
+/* No comment provided by engineer. */
+"Personalise Spark's widgets, swipe actions and sidebar items." = "Personalise Spark's widgets, swipe actions and sidebar items.";
+
+/* button title */
+"Personalization" = "Personalization";
+
+/* No comment provided by engineer. */
+"Photos" = "Photos";
+
+/* No comment provided by engineer. */
+"Pick date" = "Pick date";
+
+/* No comment provided by engineer. */
+"Pick Date" = "Pick Date";
+
+/* No comment provided by engineer. */
+"Pin" = "ピン";
+
+/* undoable action name */
+"Pin removed" = "ピンは取り消されました";
+
+/* undoable action name */
+"Pinned" = "ピンされました";
+
+/* No comment provided by engineer. */
+"Pins" = "ピン";
+
+/* No comment provided by engineer. */
+"Please check your internet connection and try again" = "Please check your internet connection and try again";
+
+/* No comment provided by engineer. */
+"Please check your Internet connection and try again" = "Please check your Internet connection and try again";
+
+/* No comment provided by engineer. */
+"Please check your internet connection and try again." = "Please check your internet connection and try again.";
+
+/* No comment provided by engineer. */
+"Please configure %@ folder." = "Please configure %@ folder.";
+
+/* No comment provided by engineer. */
+"Please enable Badges" = "Please enable Badges";
+
+/* No comment provided by engineer. */
+"Please login" = "Please login";
+
+/* No comment provided by engineer. */
+"Please open iPhone app before using Watch counterpart" = "Please open iPhone app before using Watch counterpart";
+
+/* No comment provided by engineer. */
+"Please open iPhone application before using Apple Watch app" = "Please open iPhone application before using Apple Watch app";
+
+/* No comment provided by engineer. */
+"Please open iPhone application to set up mail accounts" = "Please open iPhone application to set up mail accounts";
+
+/* No comment provided by engineer. */
+"Please open Spark and configure %@ folder." = "Please open Spark and configure %@ folder.";
+
+/* No comment provided by engineer. */
+"Please renew your Subscription or switch to Free plan" = "Please renew your Subscription or switch to Free plan";
+
+/* No comment provided by engineer. */
+"Please set up an account on your iPhone first" = "Please set up an account on your iPhone first";
+
+/* No comment provided by engineer. */
+"Please, open Spark and add at least one mail account" = "Please, open Spark and add at least one mail account";
+
+/* No comment provided by engineer. */
+"Please, open Spark and wait until it updates database" = "Please, open Spark and wait until it updates database";
+
+/* No comment provided by engineer. */
+"Please, select at least one account" = "Please, select at least one account";
+
+/* No comment provided by engineer. */
+"Please, select filter..." = "Please, select filter...";
+
+/* No comment provided by engineer. */
+"Please, select folder" = "Please, select folder";
+
+/* No comment provided by engineer. */
+"Pocket" = "Pocket";
+
+/* No comment provided by engineer. */
+"Port" = "Port";
+
+/* No comment provided by engineer. */
+"Position" = "Position";
+
+
+/* AppStore app status */
+"Prepare For Upload" = "Prepare For Upload";
+
+/* No comment provided by engineer. */
+"Preparing Draft" = "Preparing Draft";
+
+/* No comment provided by engineer. */
+"Preparing images" = "Preparing images";
+
+/* attachment download status */
+"Preparing..." = "Preparing...";
+
+/* No comment provided by engineer. */
+"Preview" = "Preview";
+
+/* No comment provided by engineer. */
+"Primary Action" = "Primary Action";
+
+/* No comment provided by engineer. */
+"Primary E-mail:" = "Primary Email:";
+
+/* No comment provided by engineer. */
+"Print" = "Print";
+
+/* button title
+ Dialog Title
+*/
+"Privacy" = "Privacy";
+
+/* button title */
+"Privacy Policy" = "Privacy Policy";
+
+/* AppStore app status */
+"Processing For App Store" = "Processing For App Store";
+
+/* No comment provided by engineer. */
+"Protect Notification Actions" = "Protect Notification Actions";
+
+/* No comment provided by engineer. */
+"Open access to your contacts and send your e-mails even easier." = "Open access to your contacts and send your emails even easier.";
+
+/* No comment provided by engineer. */
+"Push Notifications are disabled because you turned them off in iOS Settings. To resolve this issue please enable them in iOS Settings." = "Push Notifications are disabled because you turned them off in iOS Settings. To resolve this issue please enable them in iOS Settings.";
+
+/* button title */
+"Quick Replies" = "Quick Replies";
+
+/* No comment provided by engineer. */
+"QUICK REPLY" = "QUICK REPLY";
+
+/* No comment provided by engineer. */
+"Quick Reply" = "Quick Reply";
+
+/* undoable action name */
+"Quick reply sent" = "Quick reply sent";
+
+/* No comment provided by engineer. */
+"Quick Reply Templates" = "Quick Reply Templates";
+
+/* No comment provided by engineer. */
+"Re-parse" = "Re-parse";
+
+/* No comment provided by engineer. */
+"Read" = "Read";
+
+/* No comment provided by engineer. */
+"Read " = "Read ";
+
+/* No comment provided by engineer. */
+"Read by " = "Read by ";
+
+/* No comment provided by engineer. */
+"Read Receipt" = "Read Receipt";
+
+/* No comment provided by engineer. */
+"Read Receipts" = "Read Receipts";
+
+/* No comment provided by engineer. */
+"Read/Unread" = "Read/Unread";
+
+/* settings group name */
+"Readdle" = "Readdle";
+
+/* AppStore app status */
+"Ready For Sale" = "Ready For Sale";
+
+/* No comment provided by engineer. */
+"Receiving message data" = "Receiving message data";
+
+/* No comment provided by engineer. */
+"Recently Seen" = "Recently Seen";
+
+/* No comment provided by engineer. */
+"Refresh" = "Refresh";
+
+/* No comment provided by engineer. */
+"Refreshing..." = "Refreshing...";
+
+/* AppStore app status */
+"Rejected" = "Rejected";
+
+/* No comment provided by engineer. */
+"Remote disk is full." = "Remote disk is full.";
+
+/* No comment provided by engineer. */
+"Remote URL does not exist." = "Remote URL does not exist.";
+
+/* No comment provided by engineer. */
+"Remote URL does not exist. Possibly hidden file." = "Remote URL does not exist. Possibly hidden file.";
+
+/* button title */
+"Remove Account" = "Remove Account";
+
+/* undoable action name */
+"Remove from To Do" = "Remove from To Do";
+
+/* AppStore app status */
+"Removed From Sale" = "Removed From Sale";
+
+/* No comment provided by engineer. */
+"Removing account" = "Removing account";
+
+/* 3d touch action */
+"Reply" = "返信";
+
+/* 3d touch action */
+"Reply All" = "全員に返信";
+
+/* No comment provided by engineer. */
+"Reply Details" = "Reply Details";
+
+/* No comment provided by engineer. */
+"Report" = "Report";
+
+/* No comment provided by engineer. */
+"Request timed out." = "Request timed out.";
+
+/* No comment provided by engineer. */
+"Requests rate limit exceeded." = "Requests rate limit exceeded.";
+
+/* No comment provided by engineer. */
+"Restricted content." = "Restricted content.";
+
+/* No comment provided by engineer. */
+"Retry" = "Retry";
+
+/* No comment provided by engineer. */
+/* No comment provided by engineer. */
+
+"Return e-mail to Inbox in a month at %time%" = "Return email to Inbox in a month at\U00a0%time%";
+
+/* No comment provided by engineer. */
+"Return e-mail to Inbox in %time%" = "Return email to Inbox in\U00a0%time%";
+
+/* No comment provided by engineer. */
+"Return e-mail to Inbox next %weekday% a %time%" = "Return email to Inbox next %weekday% at\U00a0%time%";
+
+/* No comment provided by engineer. */
+"Return e-mail to Inbox on %weekday% at %time%" = "Return email to Inbox on %weekday% at\U00a0%time%";
+
+/* No comment provided by engineer. */
+"Return e-mail to Inbox tomorrow at %time%" = "Return email to Inbox tomorrow at\U00a0%time%";
+
+/* No comment provided by engineer. */
+"Return e-mail to Inbox tonight at %time%" = "Return email to Inbox tonight at\U00a0%time%";
+
+/* No comment provided by engineer. */
+"Return to the E-mail List" = "Return to the Email List";
+
+/* help bubble button */
+"Review Signatures" = "Review Signatures";
+
+/* No comment provided by engineer. */
+"Right" = "Right";
+
+/* No comment provided by engineer. */
+"Right Long" = "Right Long";
+
+/* No comment provided by engineer. */
+"Right Short" = "Right Short";
+
+/* No comment provided by engineer. */
+"Root" = "Root";
+
+/* 3d touch action
+ bar button item
+*/
+"Save" = "保存";
+
+/* No comment provided by engineer. */
+"Save as PDF" = "PDFとして書き出す...";
+
+/* No comment provided by engineer. */
+"Save Contact" = "連絡先を保存";
+
+/* No comment provided by engineer. */
+"Save Draft" = "下書きを保存";
+
+/* No comment provided by engineer. */
+"Save Here" = "ここに保存";
+
+/* No comment provided by engineer. */
+"Save To" = "保存先...";
+
+/* No comment provided by engineer. */
+"Save to %@" = "%@に保存";
+
+/* No comment provided by engineer. */
+"Saving draft" = "下書きに保存中";
+
+/* composer placeholder */
+"Say something" = "本文を入力してください";
+
+/* No comment provided by engineer. */
+"Search for the e-mails by typing in plain English. Easily find everything you need." = "Search for the emails by typing in plain English. Easily find everything you need.";
+
+/* No comment provided by engineer. */
+"Search in:" = "Search in:";
+
+/* No comment provided by engineer. */
+"Secondary Action" = "Secondary Action";
+
+/* No comment provided by engineer. */
+"Security" = "Security";
+
+/* Title : button allowing the user to pick the current folder */
+"Select" = "Select";
+
+/* No comment provided by engineer. */
+"Select Account" = "Select Account";
+
+/* No comment provided by engineer. */
+"Select All" = "Select All";
+
+/* No comment provided by engineer. */
+"Select card" = "Select card";
+
+/* No comment provided by engineer. */
+"Select folder..." = "Select folder...";
+
+/* No comment provided by engineer. */
+"Select Nothing" = "Select Nothing";
+
+
+/* No comment provided by engineer. */
+"Selected All" = "Selected All";
+
+/* No comment provided by engineer. */
+"Send" = "送信";
+
+/* No comment provided by engineer. */
+"Send Disabled. Please contact your administrator for more information." = "Send Disabled. Please contact your administrator for more information.";
+
+/* button title */
+"Send Feedback" = "Send Feedback";
+
+/* No comment provided by engineer. */
+"Send message data" = "Send message data";
+
+/* No comment provided by engineer. */
+"Send Reply" = "Send Reply";
+
+/* No comment provided by engineer. */
+"Send to Instapaper" = "Send to Instapaper";
+
+/* No comment provided by engineer. */
+"Sending message" = "Sending message";
+
+/* No comment provided by engineer. */
+"Sends notification for every incoming e-mail" = "Sends notification for every incoming email";
+
+/* No comment provided by engineer. */
+"Sent" = "送信済み";
+
+/* No comment provided by engineer. */
+"Sent mail sound" = "Sent mail sound";
+
+/* No comment provided by engineer. */
+"Server" = "Server";
+
+/* No comment provided by engineer. */
+"Server unavailable." = "Server unavailable.";
+
+/* No comment provided by engineer. */
+"Service cards" = "Service cards";
+
+/* No comment provided by engineer. */
+"Set as Default for..." = "Set as Default for...";
+
+/* No comment provided by engineer. */
+"Set Default Signature" = "Set Default Signature";
+
+/* view controller title */
+"Settings" = "Settings";
+
+/* 3d touch action */
+"Share" = "Share";
+
+/* No comment provided by engineer. */
+"Sharing..." = "Sharing...";
+
+/* No comment provided by engineer. */
+"Short description" = "Short description";
+
+/* No comment provided by engineer. */
+"Show advanced settings" = "Show advanced settings";
+
+/* No comment provided by engineer. */
+"Show Badge" = "Show Badge";
+
+/* No comment provided by engineer. */
+"Show calendar" = "Show calendar";
+
+/* No comment provided by engineer. */
+"Show for" = "Show for";
+
+/* No comment provided by engineer. */
+"Show History" = "Show History";
+
+/* No comment provided by engineer. */
+"Sidebar" = "Sidebar";
+
+/* No comment provided by engineer. */
+"Sidebar Primary" = "Sidebar Primary";
+
+/* No comment provided by engineer. */
+"Sidebar Secondary" = "Sidebar Secondary";
+
+/* button title */
+"Sidebar, Swipes, Widgets" = "Sidebar, Swipes, Widgets";
+
+/* No comment provided by engineer. */
+"Sign In" = "Sign In";
+
+/* button title
+ Dialog Title
+*/
+"Signatures" = "Signatures";
+
+/* No comment provided by engineer. */
+"You are offline and can now delete only the e-mails from {folder} you see on the screen. Do you wish to continue?" = "You are offline and can now delete only the emails from {folder} you see on the screen. Do you wish to continue?";
+
+/* Skip */
+"Skip" = "スキップ";
+
+/* No comment provided by engineer. */
+"Small %@" = "Small %@";
+
+/* No comment provided by engineer. */
+"Small (%@)" = "Small (%@)";
+
+/* No comment provided by engineer. */
+"Smart" = "スマート";
+
+/* No comment provided by engineer. */
+"Smart filter" = "スマートフィルタ";
+
+/* No comment provided by engineer. */
+"Smart Folder" = "スマートフォルダ";
+
+/* No comment provided by engineer. */
+"Smart Inbox" = "スマートトレイ";
+
+/* No comment provided by engineer. */
+"Smart Inbox sorts out your e-mails. *New e-mails* are displayed *separately* from the rest and are available at *the top*." = "Smart Inbox sorts out your emails. *New emails* are displayed *separately* from the rest and are available at *the top*.";
+
+/* No comment provided by engineer. */
+"Smart Notifications" = "スマート通知";
+
+/* No comment provided by engineer. */
+"Smart Search" = "スマート検索";
+
+/* No comment provided by engineer. */
+"SmartInbox" = "スマートトレイ";
+
+/* No comment provided by engineer. */
+"Snooze" = "スヌーズ";
+
+/* No comment provided by engineer. */
+"Snooze removed" = "Snooze removed";
+
+/* No comment provided by engineer. */
+"Snooze Until" = "Snooze Until";
+
+/* No comment provided by engineer. */
+"Snoozed" = "Snoozed";
+
+/* No comment provided by engineer. */
+"Snoozed till %@" = "Snoozed till %@";
+
+/* button title */
+"Snoozes" = "Snoozes";
+
+/* No comment provided by engineer. */
+"Social" = "Social";
+
+/* No comment provided by engineer. */
+"Somebody" = "Somebody";
+
+/* No comment provided by engineer. */
+"Someday" = "Someday";
+
+/* No comment provided by engineer. */
+"someday" = "someday";
+
+/* No comment provided by engineer. */
+"Something went wrong while authorizing your account. Please try again." = "Something went wrong while authorizing your account. Please try again.";
+
+/* No comment provided by engineer. */
+"Sorry" = "Sorry";
+
+/* No comment provided by engineer. */
+"Sorry to hear that. Do you want to tell us why?" = "Sorry to hear that. Do you want to tell us why?";
+
+/* No comment provided by engineer. */
+"Sorry, Spark cannot display content of this message. Please view it on your computer." = "Sorry, Spark cannot display content of this message. Please view it on your computer.";
+
+/* No comment provided by engineer. */
+"Sorry, Spark cannot fetch content of this message" = "Sorry, Spark cannot fetch content of this message";
+
+/* No comment provided by engineer. */
+"Sorry, Spark cannot save content of this message" = "Sorry, Spark cannot save content of this message";
+
+/* No comment provided by engineer. */
+"Sorry, this mail server is not compatible with Spark." = "Sorry, this mail server is not compatible with Spark.";
+
+/* No comment provided by engineer. */
+"Sorry, this photo is too large." = "Sorry, this photo is too large.";
+
+/* button title
+ Dialog Title
+*/
+"Sound Preferences" = "サウンド設定";
+
+/* No comment provided by engineer. */
+"Sound Set" = "Sound Set";
+
+/* No comment provided by engineer. */
+"Spam" = "スパム";
+
+/* No comment provided by engineer. */
+"Spark" = "Spark";
+
+/* No comment provided by engineer. */
+"Spark can't access Photos. Please, grant permission in Settings > Privacy > Photos" = "Spark can't access Photos. Please, grant permission in Settings > Privacy > Photos";
+
+/* No comment provided by engineer. */
+"Spark can't import the message" = "Spark can't import the message";
+
+/* No comment provided by engineer. */
+"Spark can't move messages to destination folder." = "Spark can't move messages to destination folder.";
+
+/* No comment provided by engineer. */
+"Spark can't save draft" = "Spark can't save draft";
+
+/* No comment provided by engineer. */
+"Spark can't send e-mail" = "Spark can't send email";
+
+/* No comment provided by engineer. */
+"Spark has been installed or updated, please open iPhone app to complete update process" = "Spark has been installed or updated, please open iPhone app to complete update process";
+
+/* settings */
+"Spark Sounds" = "Spark Sounds";
+
+/* No comment provided by engineer. */
+"Spark will send your mail as soon as Internet is available." = "Spark will send your mail as soon as Internet is available.";
+
+/* settings */
+"Standard iOS Sounds" = "Standard iOS Sounds";
+
+/* No comment provided by engineer. */
+"Star" = "Star";
+
+/* undoable action name */
+"Star removed" = "Star removed";
+
+/* No comment provided by engineer. */
+"Statistics" = "Statistics";
+
+/* composer placeholder */
+"Subject" = "件名";
+
+/* Alert view button: submit button for SSO authentication challenge */
+"Submit" = "Submit";
+
+/* No comment provided by engineer. */
+"Subscribe for a Month" = "Subscribe for a Month";
+
+/* No comment provided by engineer. */
+"Subscription Suspended" = "Subscription Suspended";
+
+/* No comment provided by engineer. */
+"Success" = "Success";
+
+/* No comment provided by engineer. */
+"Success!" = "Success!";
+
+/* No comment provided by engineer. */
+"Suggestions" = "Suggestions";
+
+/* No comment provided by engineer. */
+"Swipes" = "Swipes";
+
+/* No comment provided by engineer. */
+"Switch to Free" = "Switch to Free";
+
+/* No comment provided by engineer. */
+"Sync folder was moved / removed on server." = "Sync folder was moved / removed on server.";
+
+/* No comment provided by engineer. */
+"Tabbar aligment" = "Tabbar aligment";
+
+/* No comment provided by engineer. */
+"Tags" = "Tags";
+
+/* No comment provided by engineer. */
+"Take advantage of a glanceable view of all your Inboxes in a single place." = "Take advantage of a glanceable view of all your Inboxes in a single place.";
+
+/* No comment provided by engineer. */
+"Tap & Hold on any e-mail to enter *Edit Mode*." = "Tap & Hold on any email to enter *Edit Mode*.";
+
+/* help bubble */
+"Tap on suggested time to see whether it fits into your calendar" = "Tap on suggested time to see whether it fits into your calendar";
+
+/* Invitation reply template */
+"Tentative Accepted: {original_subject}" = "Tentative Accepted: {original_subject}";
+
+/* No comment provided by engineer. */
+"Tentatively accepted" = "Tentatively accepted";
+
+/* No comment provided by engineer. */
+"Text" = "Text";
+
+/* No comment provided by engineer. */
+"Text to send" = "Text to send";
+
+/* No comment provided by engineer. */
+"The Internet connection is required to add a service" = "The Internet connection is required to add a service";
+
+/* No comment provided by engineer. */
+"the key must not to be nil" = "the key must not to be nil";
+
+/* No comment provided by engineer. */
+"The security certificate for this server is invalid or expired. Therefore, connection to this server is not secure." = "The security certificate for this server is invalid or expired. Therefore, connection to this server is not secure.";
+
+/* No comment provided by engineer. */
+"The security certificate for this server is invalid or expired. Therefore, connection to this server is not secure. Do you wish to continue anyway?" = "The security certificate for this server is invalid or expired. Therefore, connection to this server is not secure. Do you wish to continue anyway?";
+
+/* No comment provided by engineer. */
+"The service encountered an error. Please try again later." = "The service encountered an error. Please try again later.";
+
+/* No comment provided by engineer. */
+"The template text is empty. Only icon image will be present in messages made with this template." = "The template text is empty. Only icon image will be present in messages made with this template.";
+
+/* No comment provided by engineer. */
+"There was a network issue. Please retry." = "There was a network issue. Please retry.";
+
+/* No comment provided by engineer. */
+"There was an unexpected error. Please try again." = "There was an unexpected error. Please try again.";
+
+/* No comment provided by engineer. */
+"This Apple ID is protected with two-step verification. Please use your iCloud e-mail address and application specific password to login." = "This Apple ID is protected with two-step verification. Please use your iCloud email address and application specific password to login.";
+
+/* No comment provided by engineer. */
+"This e-mail can't be referred due to error %@" = "This email can't be referred due to error %@";
+
+/* No comment provided by engineer. */
+"This Evening" = "This Evening";
+
+/* Message composer warning */
+"This message has no subject. Do you want to send it anyway?" = "This message has no subject. Do you want to send it anyway?";
+
+/* No comment provided by engineer. */
+"This option offers you one tap access to your widgets. It's a top productivity choice." = "This option offers you one tap access to your widgets. It's a top productivity choice.";
+
+/* Alert view title: title for SSO authentication challenge */
+"This page requires you to log in" = "This page requires you to log in";
+
+/* No comment provided by engineer. */
+"This signature will be used for these accounts by default" = "This signature will be used for these accounts by default";
+
+/* No comment provided by engineer. */
+"Title" = "Title";
+
+/* No comment provided by engineer. */
+"To %@" = "To %@";
+
+/* No comment provided by engineer. */
+"To *remove* or *reorder* items on the sidebar or widgets, simply enter Edit Mode by tapping the 'Edit' button." = "To *remove* or *reorder* items on the sidebar or widgets, simply enter Edit Mode by tapping the 'Edit' button.";
+
+/* No comment provided by engineer. */
+"To access camera, please go to device Settings -> Privacy -> Camera and enable access for \"Spark\" app." = "To access camera, please go to device Settings -> Privacy -> Camera and enable access for \"Spark\" app.";
+
+/* No comment provided by engineer. */
+"To access contacts, please go to device Settings -> Privacy -> Contacts and enable access for \"Spark\" app." = "To access contacts, please go to device Settings -> Privacy -> Contacts and enable access for \"Spark\" app.";
+
+/* No comment provided by engineer. */
+"To access local events, please go to device Settings -> Privacy -> Calendars and enable access for \"Spark\" app." = "To access local events, please go to device Settings -> Privacy -> Calendars and enable access for \"Spark\" app.";
+
+/* No comment provided by engineer. */
+"To access photos, please go to device Settings -> Privacy -> Photos and enable access for \"Spark\" app." = "To access photos, please go to device Settings -> Privacy -> Photos and enable access for \"Spark\" app.";
+
+/* No comment provided by engineer. */
+"To Answer" = "To Answer";
+
+/* No comment provided by engineer. */
+"To enable this function please allow Spark to send you notifications." = "To enable this function please allow Spark to send you notifications.";
+
+/* No comment provided by engineer. */
+"To Read" = "To Read";
+
+/* No comment provided by engineer. */
+"To-Do" = "To-Do";
+
+/* Today */
+"Today" = "Today";
+
+/* No comment provided by engineer. */
+"Tomorrow" = "Tomorrow";
+
+/* No comment provided by engineer. */
+"Tomorrow Eve" = "Tomorrow Eve";
+
+/* No comment provided by engineer. */
+"Too many files should be synced." = "Too many files should be synced.";
+
+/* No comment provided by engineer. */
+"Tools" = "Tools";
+
+/* No comment provided by engineer. */
+"Top" = "Top";
+
+/* No comment provided by engineer. */
+"Top Section" = "Top Section";
+
+/* Format for the string to return to a calling app. */
+"Touch to return to %1$@" = "Touch to return to %1$@";
+
+/* No comment provided by engineer. */
+"Trash" = "Trash";
+
+/* No comment provided by engineer. */
+"Trust" = "Trust";
+
+/* No comment provided by engineer. */
+"Tune available Snooze times to your liking." = "Tune available Snooze times to your liking.";
+
+/* No comment provided by engineer. */
+"Turns off notifications" = "Turns off notifications";
+
+/* No comment provided by engineer. */
+"Type" = "Type";
+
+/* No comment provided by engineer. */
+"UID: %@" = "UID: %@";
+
+/* No comment provided by engineer. */
+"Unable to create local file." = "Unable to create local file.";
+
+/* No comment provided by engineer. */
+"Unable to fetch message" = "Unable to fetch message";
+
+/* Alert view message: message for failed SSO login due bad username or password */
+"Unable to log in. Please check your username and password and try again." = "Unable to log in. Please check your username and password and try again.";
+
+/* No comment provided by engineer. */
+"Unable to start sync. Authorization failed." = "Unable to start sync. Authorization failed.";
+
+/* No comment provided by engineer. */
+"Unable to start sync. Failed to open connection with server." = "Unable to start sync. Failed to open connection with server.";
+
+/* No comment provided by engineer. */
+"UNDO" = "UNDO";
+
+/* No comment provided by engineer. */
+"Undo" = "Undo";
+
+/* No comment provided by engineer. */
+"Unexpected error has occurred." = "Unexpected error has occurred.";
+
+/* No comment provided by engineer. */
+"Unfortunately, your e-mail server doesn’t allow remote connections. This prevents Spark from sending you notifications about new incoming e-mails." = "Unfortunately, your email server doesn’t allow remote connections. This prevents Spark from sending you notifications about new incoming emails.";
+
+/* No comment provided by engineer. */
+"Unified" = "Unified";
+
+/* No comment provided by engineer. */
+"Unknown error" = "Unknown error";
+
+/* No comment provided by engineer. */
+"Unknown error." = "Unknown error.";
+
+/* No comment provided by engineer. */
+"Unlimited" = "Unlimited";
+
+/* No comment provided by engineer. */
+"Unpin" = "Unpin";
+
+/* No comment provided by engineer. */
+"Unread" = "Unread";
+
+/* No comment provided by engineer. */
+"Unstar" = "Unstar";
+
+/* No comment provided by engineer. */
+"Update needed" = "Update needed";
+
+/* No comment provided by engineer. */
+"Updating database..." = "Updating database...";
+
+/* AppStore app status */
+"Upload Received" = "Upload Received";
+
+/* No comment provided by engineer. */
+"Upload was aborted, because it took too much time in background." = "Upload was aborted, because it took too much time in background.";
+
+/* No comment provided by engineer. */
+"Uploading..." = "Uploading...";
+
+/* No comment provided by engineer. */
+"Use E-mail Signatures" = "Use Email Signatures";
+
+/* No comment provided by engineer. */
+"Use it to *Archive*, *Read*, *Move* or *Delete* messages in bulk." = "Use it to *Archive*, *Read*, *Move* or *Delete* messages in bulk.";
+
+/* search placeholder view */
+"Use natural language for fast and easy smart folder creation, e.g. \"Attachments for the last month\"." = "Use natural language for fast and easy smart folder creation, e.g. \"Attachments for the last month\".";
+
+/* search placeholder view */
+"Use natural language for quick and easy search. Try \"e-mail with PDF attachments last month\" to see how it works." = "Use natural language for quick and easy search. Try \"email with PDF attachments last month\" to see how it works.";
+
+/* No comment provided by engineer. */
+"Use Quick Replies" = "Use Quick Replies";
+
+/* No comment provided by engineer. */
+"User name" = "User name";
+
+/* No comment provided by engineer. */
+"User Name" = "User Name";
+
+/* No comment provided by engineer. */
+"User name mismatch" = "User name mismatch";
+
+/* No comment provided by engineer. */
+"User name must equal to %@" = "User name must equal to %@";
+
+/* Alert view text placeholder: Placeholder for where to enter user name for SSO authentication challenge */
+"Username" = "Username";
+
+/* No comment provided by engineer. */
+"Verbose Logging" = "Verbose Logging";
+
+/* No comment provided by engineer. */
+"Version: %@" = "Version: %@";
+
+/* No comment provided by engineer. */
+"View All" = "View All";
+
+/* No comment provided by engineer. */
+"View All (%lu)" = "View All (%lu)";
+
+/* No comment provided by engineer. */
+"View Attendees..." = "View Attendees...";
+
+/* No comment provided by engineer. */
+"View Calendar" = "View Calendar";
+
+/* No comment provided by engineer. */
+"View Details" = "View Details";
+
+/* No comment provided by engineer. */
+"View Details..." = "View Details...";
+
+/* No comment provided by engineer. */
+"View in calendar" = "View in calendar";
+
+/* No comment provided by engineer. */
+"Visible Items" = "Visible Items";
+
+/* No comment provided by engineer. */
+"Visits" = "Visits";
+
+/* AppStore app status */
+"Waiting For Review" = "Waiting For Review";
+
+/* AppStore app status */
+"Waiting For Upload" = "Waiting For Upload";
+
+/* No comment provided by engineer. */
+"Warning" = "Warning";
+
+/* help bubble */
+"The list of your signatures is saved as is and \"Use e-mail signatures\" preference is set to \"Off\"." = "The list of your signatures is saved as it is and \"Use email signatures\" preference is set to \"Off\".";
+
+/* No comment provided by engineer. */
+"Weather" = "Weather";
+
+/* No comment provided by engineer. */
+"Week ago" = "Week ago";
+
+/* No comment provided by engineer. */
+"Weekend" = "Weekend";
+
+/* No comment provided by engineer. */
+"What happens to your e-mails once you've read them?" = "What happens to your emails once you've read them?";
+
+/* No comment provided by engineer. */
+"What should Spark do?" = "What should Spark do?";
+
+/* No comment provided by engineer. */
+"What's New" = "What's New";
+
+/* button title */
+"What's New?" = "What's New?";
+
+/* No comment provided by engineer. */
+"When an e-mail is read, it goes to the bottom section of Smart Inbox." = "When an email is read, it goes to the bottom section of Smart Inbox.";
+
+/* No comment provided by engineer. */
+"When E-mail is Archived or Deleted" = "When Email is Archived or Deleted";
+
+/* No comment provided by engineer. */
+"Whole Inbox" = "Whole Inbox";
+
+/* No comment provided by engineer. */
+"Widgets" = "Widgets";
+
+/* No comment provided by engineer. */
+"Widgets position" = "Widgets position";
+
+/* No comment provided by engineer. */
+"WiFi" = "WiFi";
+
+/* No comment provided by engineer. */
+"With widgets on the bottom Spark looks more clean and modern. And more fun to use too!" = "With widgets on the bottom Spark looks more clean and modern. And more fun to use too!";
+
+/* No comment provided by engineer. */
+"Work" = "Work";
+
+/* No comment provided by engineer. */
+"Workflow" = "Workflow";
+
+/* No comment provided by engineer. */
+"Write a Review" = "Write a Review";
+
+/* No comment provided by engineer. */
+"Yahoo Japan" = "Yahoo Japan";
+
+/* No comment provided by engineer. */
+"Yahoo token refresh error" = "Yahoo token refresh error";
+
+/* No comment provided by engineer. */
+"Yahoo!" = "Yahoo!";
+
+/* No comment provided by engineer. */
+"Yes" = "Yes";
+
+/* No comment provided by engineer. */
+"Yes, Let It Go" = "Yes, let it go";
+
+/* Yesterday */
+"Yesterday" = "昨日";
+
+/* No comment provided by engineer. */
+"You have already answered this message" = "You have already answered this message";
+
+/* No comment provided by engineer. */
+"You have no searches saved yet" = "You have no searches saved yet";
+
+/* No comment provided by engineer. */
+"You need to delete some of e-mail addresses\nfrom the device to continue subscription" = "You need to delete some of email accounts\nfrom the device to continue subscription";
+
+/* No comment provided by engineer. */
+"You've removed this message from your Inbox using another device. Please check your Archive, Trash or other folders to find it." = "You've removed this message from your Inbox using another device. Please check your Archive, Trash or other folders to find it.";
+
+/* No comment provided by engineer. */
+"Your device appears to be disconnected from the Internet" = "Your device appears to be disconnected from the Internet";
+
+/* No comment provided by engineer. */
+"Your e-mail wasn't sent. Please open Spark to send it manually." = "Your email wasn't sent. Please open Spark to send it manually.";
+
+/* No comment provided by engineer. */
+"Your e-mail to {first} wasn't sent. Please open Spark to send it manually." = "Your email to {first} wasn't sent. Please open Spark to send it manually.";
+
+/* No comment provided by engineer. */
+"Your Premium subscription has been suspended" = "Your Premium subscription has been suspended";
+
+/* help bubble */
+"Your signature will be displayed at the bottom of a new e-mail. You can *swipe to switch between different signatures*." = "Your signature will be displayed at the bottom of a new email. You can *swipe to switch between different signatures*.";
+
+/* group header
+ title
+*/
+"Your Signatures" = "Your Signatures";
+
+/* No comment provided by engineer. */
+"Zero e-mails in your Inbox.\nRelax and enjoy the moment!" = "Zero emails in your Inbox.\nRelax and enjoy the moment!";
+
+/* zero file size */
+"Zero KB" = "Zero KB";
+
+/* No comment provided by engineer. */
+"…" = "…";
+
+/* No comment provided by engineer. */
+"Invalid IMAP Username" = "Invalid IMAP Username";
+
+/* No comment provided by engineer. */
+"No receipts" = "No receipts";
+
+/* e-mail folder name */
+"folder_name_archive" = "アーカイブ";
+
+/* remote file service (Dropbox, etc) attachment kind: could be File, Link or Archive */
+"attachment_archive" = "アーカイブ";
+
+/* composer action for large attachments */
+"Compress" = "圧縮";
+
+/* No comment provided by engineer. */
+"You have %lu unread message(s)##{one}" = "You have %lu unread message";
+
+/* No comment provided by engineer. */
+"You have %lu unread message(s)##{few}" = "You have %lu unread messages";
+
+/* No comment provided by engineer. */
+"You have %lu unread message(s)##{many}" = "You have %lu unread messages";
+
+/* No comment provided by engineer. */
+"You have %lu unread message(s)##{other}" = "You have %lu unread messages";
+
+/* No comment provided by engineer. */
+"Next message" = "Next message";
+
+/* No comment provided by engineer. */
+"Previous message" = "Previous message";
+
+/* No comment provided by engineer. */
+"Previous field" = "Previous field";
+
+/* No comment provided by engineer. */
+"shortcut_left" = "Left";
+
+/* No comment provided by engineer. */
+"Up" = "Up";
+
+/* No comment provided by engineer. */
+"Open sidebar" = "Open sidebar";
+
+/* No comment provided by engineer. */
+"Find" = "Find";
+
+/* No comment provided by engineer. */
+"Close sidebar" = "Close sidebar";
+
+/* No comment provided by engineer. */
+"Scroll up" = "Scroll up";
+
+/* No comment provided by engineer. */
+"Delete message" = "Delete message";
+
+/* No comment provided by engineer. */
+"Edit" = "Edit";
+
+/* No comment provided by engineer. */
+"Next Field" = "Next Field";
+
+/* No comment provided by engineer. */
+"Toggle read status" = "Toggle Read status";
+
+/* No comment provided by engineer. */
+"shortcut_right" = "Right";
+
+/* No comment provided by engineer. */
+"Scroll down" = "Scroll down";
+
+/* No comment provided by engineer. */
+"Down" = "Down";
+
+/* No comment provided by engineer. */
+"New message" = "New message";
+
+/* No comment provided by engineer. */
+"Email Viewer" = "Email Viewer";
+
+/* No comment provided by engineer. */
+"Return to E-Mail List" = "Return to Email List";
+
+/* No comment provided by engineer. */
+"Saved" = "Saved";
+
+/* No comment provided by engineer. */
+"Details" = "Details";
+
+/* No comment provided by engineer. */
+"Recents" = "最近";
+
+/* No comment provided by engineer. */
+"Use Natural Language Search" = "Use Natural Language Search";
+
+/* No comment provided by engineer. */
+"Text" = "テキスト";
+
+/* No comment provided by engineer. */
+"Search" = "検索";
+
+/* No comment provided by engineer. */
+"(no subject)" = "(件名なし)";
+
+/* No comment provided by engineer. */
+"(no text)" = "(本文なし)";
+
+/* No comment provided by engineer. */
+"Check other folders" = "Check other folders";
+
+/* No comment provided by engineer. */
+"Go to Archive" = "Go to Archive";
+
+/* No comment provided by engineer. */
+"Go to Inbox" = "Go to Inbox";
+
+/* No comment provided by engineer. */
+"To" = "To";
+
+/* No comment provided by engineer. */
+"From" = "From";
+
+/* No comment provided by engineer. */
+"Notification" = "Notification";
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_like" = "Like";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_thanks" = "Thanks";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_smile" = "Smile";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_idea" = "Great Idea";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_phone" = "Call Me";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_cool" = "Cool";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_heart" = "Love";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_title_deal" = "Agree";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_like" = "%name% liked your email";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_thanks" = "Thank you!";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_smile" = "%name% smiled at you";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_idea" = "%name% thinks that’s a great idea.";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_phone" = "%name% asks for a call.";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_cool" = "Cool.";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_heart" = "Love this.";
+
+
+
+/* No comment provided by engineer. */
+
+"$localized_qr_text_deal" = "%name% agrees.";
+
+/* No comment provided by engineer. */
+"List" = "List";
+
+/* No comment provided by engineer. */
+"List" = "List";
+
+/* Related to the in-app browser. */
+"In-App" = "In-App";
+
+/* No comment provided by engineer. */
+"folder_name_snoozed" = "Snoozed";
+
+/* related tothe person. */
+"to %@" = "to %@";
+
+/* button name for non-displayed images download. */
+"Display images below" = "Display images below";
+
+/* title name. */
+"Images are not displayed" = "Images are not displayed. ";
+
+/* smart folder setting title. */
+"Enter filter" = "Enter Filter";
+
+/* signature confirmation button. */
+"Confirm" = "Confirm";
+
+/* button name. */
+"Open Privacy settings" = "Open Privacy Settings";
+
+/* lock screen notification title. */
+"⏰Reminder\n%@\n%@" = "⏰Reminder\n%@\n%@";
+
+/* attachment size selection. */
+"_short_ Small (%@)" = "Small (%@)";
+
+/* attachment size selection. */
+"_short_ Medium (%@)" = "Medium (%@)";
+
+/* attachment size selection. */
+"_short_ Large (%@)" = "Large (%@)";
+
+/* attachment size selection. */
+"_short_ Actual Size (%@)" = "Actual Size (%@)";
+
+/* No comment provided by engineer. */
+"pluralized_New##{one}" = "New";
+
+/* No comment provided by engineer. */
+"pluralized_New##{few}" = "New";
+
+/* No comment provided by engineer. */
+"pluralized_New##{many}" = "New";
+
+/* No comment provided by engineer. */
+"pluralized_New##{other}" = "New";
+
+/* No comment provided by engineer. */
+"Please select folder" = "Please select folder";
+
+
+/* No comment provided by engineer. */
+"Please select folder..." = "Please select folder...";
+
+
+
+"whatsnew-title-review" = "Help Others";
+"whatsnew-text-review" = "We hope you will enjoy the update!\n\nIt would be great if you could leave a review in the App Store so other users can learn more about Spark.";
+
+/* Error message, half of watch screen available */
+"Please run Spark on iPhone to continue" = "Please run Spark on iPhone to continue";
+
+/* Error message, half of watch screen available */
+"Please unlock your iPhone to continue" = "Please unlock your iPhone to continue";
+
+"Please wait a minute" = "Please wait a minute";
+
+"Synchronization" = "Synchronization";
+
+"Can't enable synchronization. Please contact support." = "Can't enable synchronization. Please contact support.";
+
+"Merge" = "Merge";
+
+"Overwrite other devices" = "Overwrite other devices";
+
+"Overwrite this device" = "Overwrite this device";
+
+"Merge Spark Accounts and Settings from other devices with information on this device" = "Merge Spark Accounts and Settings from other devices with information on this device";
+
+"Use this device profile to overwrite Spark Accounts and Settings on other devices" = "Use this device profile to overwrite Spark Accounts and Settings on other devices";
+
+"Overwrite Spark Accounts and Settings on this devices with information from other devices" = "Overwrite Spark Accounts and Settings on this devices with information from other devices";
+
+"Sync Warning" = "Sync Warning";
+
+"Spark cannot automatically sync e-mail accounts and settings on this device with other devices. How do you want to resolve this conflict?" = "Spark cannot automatically sync email accounts and settings on this device with other devices. How do you want to resolve this conflict?";
+
+"Cancel Sync" = "Cancel Sync";
+
+"Confirm" = "Confirm";
+
+"In Cloud Settings Sync" = "Sync Settings via Cloud";
+
+"Sync my accounts and settings between different devices" = "Sync my accounts and settings between different devices";
+
+"Allow Sync" = "Allow Sync";
+
+"Restore Accounts and Settings" = "Restore Accounts and Settings";
+
+"Login as New User" = "Login as New User";
+
+"Please login into any of your e-mail accounts to confirm your identity." = "Please login into any of your email accounts to confirm your identity.";
+
+"Verification" = "Verification";
+
+"Welcome Back\n{user name}" = "Welcome Back\n{user name}";
+
+"Use Natural Language when you search" = "Use Natural Language when you search";
+
+"*From* Alex *with attachments*" = "*From* Alex *with attachments*";
+
+"Thanks" = "Thanks";
+
+"Email" = "Email";
+
+"Invalid email" = "Invalid email";
+
+"Invalid IMAP Username" = "Invalid IMAP Username";
+"Invalid IMAP Password" = "Invalid IMAP Password";
+"Invalid IMAP Server" = "Invalid IMAP Server";
+"Invalid IMAP Port" = "Invalid IMAP Port";
+"Invalid SMTP Username" = "Invalid SMTP Username";
+"Invalid SMTP Password" = "Invalid SMTP Password";
+"Invalid SMTP Server" = "Invalid SMTP Server";
+"Invalid SMTP Port" = "Invalid SMTP Port";
+
+/* Option name */
+"Background Color" = "Background Color";
+
+/* Color theme name */
+"Dark Sky" = "Dark Sky";
+
+/* Color theme name */
+"Dark Blue" = "Dark Blue";
+
+/* Color theme name */
+"Light Blue" = "Light Blue";
+
+/* Invitation e-mail subject */
+"Invitation" = "Invitation";
+
+/* Button title */
+"View Attendees" = "View Attendees";
+
+"Unable to authenticate with the current session's credentials." = "Unable to authenticate with the current session's credentials.";
+
+"Network connectivity issue prevented Spark from completing the operation. Please try again or look for a place with a more stable network connection." = "Network connectivity issue prevented Spark from completing the operation. Please try again or look for a place with a more stable network connection.";
+
+"View in Browser..." = "View in Browser...";
+
+"You said '%@' for this email" = "You said '%@' for this email";
+
+"Please, select filter" = "Please, select filter";
+
+"Smart folder name is required" = "Smart folder name is required";
+
+/* Text on Apple Watch complication */
+"%ld new mails##{one}" = "%ld new";
+"%ld new mails##{few}" = "%ld new";
+"%ld new mails##{many}" = "%ld new";
+"%ld new mails##{other}" = "%ld new";
+
+"No new mail" = "No new mail";
+"You have no unread" = "You have no unread";
+"mails in your inbox" = "emails in your inbox";
+
+"Badge cannot be turned ON as notifications for {email} are disabled. Do you want to enable notifications and turn badge ON for {email}?" = "Badge cannot be turned ON as notifications for {email} are disabled. Do you want to enable notifications and turn badge ON for {email}?";
+
+"Inbox_short" = "Inbox";
+"Sent_short" = "Sent";
+"Archived_short" = "Archived";
+"Pinned_short" = "Pinned";
+"Past " = "Past ";
+"Next " = "Next ";
+
+"Unfortunately, Spark server couldn’t set up the connection with your email server. Notifications and badges for {accounts} have been disabled." = "Unfortunately, Spark server couldn’t set up the connection with your email server. Notifications and badges for {accounts} have been disabled.";
+"Turning notifications off will also disable displaying the badge for this account. Would you like to continue?" = "Turning notifications off will also disable displaying the badge for this account. Would you like to continue?";
+"whatsnew-title-notifications" = "Advanced Notifications";
+
+"whatsnew-title-compatibility" = "iOS 10 Compatibility";
+"whatsnew-text-compatibility" = "Spark is fully compatible with iOS 10 now.";
+
+"whatsnew-title-dock" = "The New Dock Support";
+"whatsnew-text-dock" = "Add Spark to the new Dock and enjoy quick access to your emails.";
+
+"whatsnew-title-scribble" = "Scribble Support";
+"whatsnew-text-scribble" = "Now you can simply draw letters on the screen to type out words.";
+
+"whatsnew-title-review" = "Help Others";
+"whatsnew-text-review" = "We hope you will enjoy the update!\n\nIt would be great if you could leave a review in the App Store so other users can learn more about Spark.";
+
+"whatsnew-subtitle-watchos" = "Available in watchOS 3";
+
+"Canceled Event" = "Canceled Event";
+"Updated Invitation" = "Updated Invitation";
+" and %d others" = " and %d others";
+" and 1 other" = " and 1 other";
+"You" = "You";
+"%@ and %d more" = "%@ and %d more";
+"%d attendees" = "%d attendees";
+"Please contact support." = "Please contact support.";
+"All Day" = "All Day";
+
+"Accepted Invitation" = "Accepted Invitation";
+"Declined Invitation" = "Declined Invitation";
+"Tentatively Accepted Invitation" = "Tentatively Accepted Invitation";
+
+"Invitation: {original_subject}" = "Invitation: {original_subject}";
+"Updated Invitation: {original_subject}" = "Updated Invitation: {original_subject}";
+"Canceled Event: {original_subject}" = "Canceled Event: {original_subject}";
+"Quickly respond to emails and accept invitations right in your notifications." = "Quickly respond to emails and accept invitations right in your notifications.";
+"Accept invitations right in your notifications." = "Accept invitations right in your notifications.";
+"Detailed Logging" = "Detailed Logging";
+"Archived folders larger than {message_size} MB can't be attached." = "Archived folders larger than {message_size} MB can't be attached.";
+"Messages larger than {message_size} MB can't be sent." = "Messages larger than {message_size} MB can't be sent.";
+"Archiving…" = "Archiving…";
+"Support" = "Support";
+"%llu Attachment(s)##{one}" = "%llu個の添付ファイル";
+"%llu Attachment(s)##{few}" = "%d個の添付ファイル";
+"%llu Attachment(s)##{many}" = "%d個の添付ファイル";
+"%llu Attachment(s)##{other}" = "%d個の添付ファイル";
+"No mails selected\n" = "No Emails Selected\n";
+"Open one to see it here!" = "Open one to see it here!";
+"Looks like this folder is empty\n" = "Looks like this folder is empty\n";
+"Try to visit another" = "Try to check another one";
+"All E-mails Selected" = "All Emails Selected";
+"Email(s) Selected##{one}" = "Email Selected";
+"Email(s) Selected##{few}" = "Emails Selected";
+"Email(s) Selected##{many}" = "Emails Selected";
+"Email(s) Selected##{other}" = "Emails Selected";
+"Are you sure you want to delete the folder?" = "Are you sure you want to delete the folder?";
+"\"%@\" will be deleted permanently." = "\"%@\" will be deleted permanently.";
+"Delete the folder" = "Delete the folder";
+"Parent Folder" = "Parent Folder";
+"Create" = "Create";
+"Folder name is not valid" = "Folder name is not valid";
+"<Root>" = "<Root>";
+"Label" = "Label";
+"Visible" = "Visible";
+"Add Folder" = "Add Folder";
+"Deleting folder..." = "Deleting folder...";
+"Creating folder..." = "Creating folder...";
+
+"Create Contact" = "Create Contact";
+
+"Alias" = "Alias";
+"Preparing…" = "Preparing…";
+"Signature Switch" = "Signature Switch";
+"Add Attachment" = "Add Attachment";
+"All\n" = "All\n";
+"Remove Style" = "Remove Style";
+"Invitation cancelled" = "Invitation cancelled";
+"Invitation reply" = "Invitation reply";
+"Event Details" = "Event Details";
+"now" = "now";
+"Auto Cc/Bcc" = "Auto Cc/Bcc";
+"Auto Cc or Bcc" = "Auto Cc or Bcc";
+"Invalid recipients" = "Invalid recipients";
+"Cc:" = "Cc:";
+"Bcc:" = "Bcc:";
+"Cc" = "Cc";
+"Bcc" = "Bcc";
+"To:" = "宛先:";
+"To" = "To";
+"Authentication Error" = "Authentication Error";
+"An error occurred, please authenticate again {email}" = "An error occurred, please authenticate again {email}";
+"Your name" = "Your name";
+"Additional Settings" = "Additional Settings";
+"Composing" = "Composing";
+"%d event(s)##{one}" = "%d event";
+"%d event(s)##{few}" = "%d events";
+"%d event(s)##{many}" = "%d events";
+"%d event(s)##{other}" = "%d events";
+"%d more" = "%d more";
+"Seen" = "開封済み";
+"Message based" = "Message Based";
+"Content based" = "Content Based";
+"Non-email based" = "Non-email Based";
+"Application based" = "Application Based";
+"Select item" = "Select Item";
+"People" = "People";
+"Emails" = "Emails";
+"Auto Cc or Bcc" = "Auto Cc or Bcc";
+"Auto Cc/Bcc" = "Auto Cc/Bcc";
+"Name_person" = "Name";
+"Unable to start sync. Autohorization failed." = "Unable to start sync. Authorization failed.";
+"VPN connection may prevent Spark from logging in. A stable connection to the server could not be established." = "VPN connection may prevent Spark from logging in. A stable connection to the server could not be established.";
+"No content" = "No content";
+"Can't reach email server" = "Can't reach email server";
+"⚑ %@ read “%@”" = "⚑ %@ read “%@”";
+"⚑ Email to %@ has been read" = "⚑ Email to %@ has been read";
+"Unable to copy files from source application." = "Unable to copy files from source application.";
+"Failed to copy some files" = "Failed to copy some files";
+"DROP HERE\nto attach the file##{one}" = "DROP HERE\nto attach the file";
+"DROP HERE\nto attach the file##{few}" = "DROP HERE\nto attach files";
+"DROP HERE\nto attach the file##{many}" = "DROP HERE\nto attach files";
+"DROP HERE\nto attach the file##{other}" = "DROP HERE\nto attach files";
+"DOWNLOADING…" = "DOWNLOADING…";
+"Drop Here\nto send by email" = "Drop Here\nto send by email";
+"Introducing Drag and Drop" = "Introducing Drag and Drop";
+"For the first time ever, you can easily Drag and Drop files across Readdle apps" = "For the first time ever, you can easily Drag and Drop files across Readdle apps";
+"Make sure to use the App-specific password." = "Make sure to use the App-specific password.";
+"The passkey is required each time Spark goes foreground. Be careful as there is *no way to recover it.*" = "The passkey is required each time Spark goes foreground. Be careful as there is *no way to recover it.*";
+"The passkey is required each time Spark stays in background for more than 1 minute. Be careful as there is *no way to recover it.*" = "The passkey is required each time Spark stays in background for more than 1 minute. Be careful as there is *no way to recover it.*";
+"Sign" = "Sign";
+"Fill forms" = "Fill forms";
+"Annotate" = "Annotate";
+"Add text" = "Add text";
+"Open" = "Open";
+"Edit with PDF Expert" = "Edit with PDF Expert";
+"Update PDF Expert" = "Update PDF Expert";
+"Get PDF Expert" = "Get PDF Expert";
+"Sign Documents" = "Sign Documents";
+"Fill Forms" = "Fill Forms";
+"Add Text" = "Add Text";
+"Easily sign documents and\nemail them back." = "Easily sign documents and\nemail them back.";
+"Fill out PDF forms with radio buttons,\ncheck marks and interactive fields." = "Fill out PDF forms with radio buttons,\ncheck marks and interactive fields.";
+"The best way to annotate and\nreview your documents." = "The best way to annotate and\nreview your documents.";
+"Add words and comments into insertion\norders and invoices on the go." = "Add words and comments into insertion\norders and invoices on the go.";
+"Edit with" = "Edit with";
+"PDF Expert" = "PDF Expert";
+"Update" = "Update";
+"Get" = "Get";
+"This integration allows you to edit, sign,\nannotate PDF files and easily\nsend them back with Spark." = "This integration allows you to edit, sign,\nannotate PDF files and easily\nsend them back with Spark.";
